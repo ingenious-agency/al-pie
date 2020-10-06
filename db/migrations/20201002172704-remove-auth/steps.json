@@ -1,0 +1,22 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "UpdateArgument",
+      "location": {
+        "tag": "Source",
+        "source": "db"
+      },
+      "argument": "provider",
+      "newValue": "\"postgresql\""
+    },
+    {
+      "tag": "DeleteModel",
+      "model": "User"
+    },
+    {
+      "tag": "DeleteModel",
+      "model": "Session"
+    }
+  ]
+}

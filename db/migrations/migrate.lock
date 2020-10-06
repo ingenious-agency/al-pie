@@ -1,0 +1,8 @@
+# Prisma Migrate lockfile v1
+
+20201002171335-initial-migration
+20201002172419
+20201002172704-remove-auth
+20201002173321-add-models
+20201002174057-make-slug-unique
+20201002192057-add-max-allowed-players
